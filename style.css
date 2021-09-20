@@ -1,0 +1,28 @@
+header{
+background-color: black;
+text-align: center;
+color:white;
+}
+img{
+    width: 100%
+}
+@media(max-width: 768px){
+    #caroline-img{
+        order:1;
+    }
+    #caroline-text{
+        order:2;
+    }
+    #becky-text{
+        order:3;
+    }
+    #becky-img{
+        order:4;
+    }
+    #laura-img{
+        order:5;
+    }
+    #laura-text{
+        order:6;
+    }
+}
